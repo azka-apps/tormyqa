@@ -1,0 +1,78 @@
+# Dependencies and package managers
+node_modules/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# This workspace uses pnpm; commit only the root pnpm-lock.yaml.
+package-lock.json
+yarn.lock
+**/pnpm-lock.yaml
+!/pnpm-lock.yaml
+
+# Build output, coverage, and tool caches
+dist/
+dist-ssr/
+build/
+coverage/
+.cache/
+.turbo/
+.expo/
+.vite/
+.vite-temp/
+.eslintcache
+.parcel-cache/
+.metro-health-check*
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.sw?
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Native mobile tooling
+DerivedData/
+xcuserdata/
+.gradle/
+.cxx/
+.kotlin/
+.bundle/
+local.properties
+*.hprof
+*.ipa
+*.jsbundle
+*.keystore
+!debug.keystore
+**/Pods/
+vendor/bundle/
+**/.xcode.env.local
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/
+**/fastlane/test_output/
